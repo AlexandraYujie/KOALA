@@ -1,0 +1,4 @@
+batch_size: 2
+checkpoint: bert-base-chinese
+epoch: 3
+method: ColBERT

@@ -1,0 +1,4 @@
+batch_size: 2
+checkpoint: mt5-base
+epoch: 3
+method: T5

@@ -1,0 +1,4 @@
+batch_size: 2
+checkpoint: all-MiniLM-L6-v2
+epoch: 3
+method: sbert

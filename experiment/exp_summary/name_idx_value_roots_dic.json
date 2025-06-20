@@ -1,0 +1,33 @@
+{
+  "ColBERT.bert-base-chinese": [
+  ],
+  "sbert.sbert-base-chinese-nli": [
+    "experiment/result/edu/sbert/sbert-base-chinese-nli/25-06-20_04-51-13/idx_value_result_edu.json",
+    "experiment/result/tech/sbert/sbert-base-chinese-nli/25-06-20_04-56-15/idx_value_result_tech.json"
+  ],
+  "sbert.sbert-base-chinese-nli.no_query": [
+  ],
+  "sbert.sbert-base-chinese-nli.random_query": [
+    "experiment/result/edu/sbert/sbert-base-chinese-nli/25-06-20_07-01-18/idx_value_result_edu.json",
+    "experiment/result/tech/sbert/sbert-base-chinese-nli/25-06-20_07-05-13/idx_value_result_tech.json"
+
+  ],
+  "sbert.sbert-base-chinese-nli.euc": [
+  ],
+  "BERT.bert-base-chinese.sigmoid_score": [
+  ],
+  "BERT.bert-base-chinese": [
+  ],
+  "BERT.chinese-roberta-wwm-ext": [
+  ],
+  "BERT.chinese-roberta-wwm-ext.sigmoid_score": [
+  ],
+  "T5.mt5-base.sigmoid_score": [
+  ],
+  "T5.mt5-base.only_encoder.sigmoid_score": [
+  ],
+  "T5.mt5-base.only_encoder": [
+  ],
+  "T5.mt5-base": [
+  ]
+}
