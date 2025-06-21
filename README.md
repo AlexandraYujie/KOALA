@@ -3,7 +3,13 @@
 ## About KOALA
 
 KOALA is a tool that leverages large language models (LLMs) to quantify texts in the social sciences. It adopts an LLM ranking + small model distillation method to enable text quantification in low-resource settings.
-Our paper:
+
+This repository accompanies the following paper:
+
+📄 **Expert-level policy style measurement via knowledge distillation with large language model collaboration**   
+📚 *Information Processing & Management, 2025*  
+🔗 [https://doi.org/10.1016/j.ipm.2025.104090](https://doi.org/10.1016/j.ipm.2025.104090)
+
 
 Currently, the KOALA repository supports:
 
@@ -145,3 +151,25 @@ python -u training.py --method sbert --base_model_name sbert-base-chinese-nli --
 ```shell
 python -u analyze.py --batch_size 32 --model_dir experiment/model/distill/<datetime>/
 ```
+
+## 📄 Citation
+
+If you use this work in your research, please cite our paper:
+
+```bibtex
+@article{zhang2025expert,
+  title={Expert-level policy style measurement via knowledge distillation with large language model collaboration},
+  author={Zhang, Yujie and Huang, Biao and Yuan, Weikang and Jiang, Zhuoren and Peng, Longsheng and Chen, Shuai and Tan-Soo, Jie-Sheng},
+  journal={Information Processing \& Management},
+  volume={62},
+  number={4},
+  pages={104090},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
+
+## Contact
+
+For questions or collaborations, please contact: [jiangzhuoren@zju.edu.cn](mailto:jiangzhuoren@zju.edu.cn)
